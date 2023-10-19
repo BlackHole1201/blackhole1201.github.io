@@ -1,0 +1,173 @@
+html, body 
+{
+	height: 100%;
+}
+
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	background: #16a085;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	color: #363636;
+	overflow-x: hidden;
+}
+
+
+h1, h2, h3 
+{
+	margin: 0;
+	padding: 0;
+}
+
+p 
+{
+	margin-top: 0px;
+	line-height: 190%;
+}
+
+a:hover 
+{
+	text-decoration: none;
+}
+
+a img 
+{
+	border: none;
+}
+
+/****************/
+/*Heading Titles*/
+/****************/
+.title
+{
+	margin-bottom: 2em;
+	text-transform: uppercase;
+}
+
+.title h2
+{
+	font-weight: 400;
+	font-size: 2em;
+	color: #16a085;
+}
+	
+.title .byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.90em;
+	color: #6F6F6F;
+}
+
+/*WRAPPER*/
+#wrapper 
+{
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+.container 
+{
+	width: 800px;
+	margin: 0px auto;
+}
+
+/**********/
+/*Wrappers*/
+/**********/
+#header-wrapper
+{
+	overflow: hidden;
+	background: url(images/bg01.png) repeat;
+	background-size: 100%;
+	padding: 6em 0em 2em 0em;
+	background: #333333;
+}
+
+/********/
+/*Header*/
+/********/
+#header 
+{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+/******/
+/*Logo*/
+/******/
+#logo 
+{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 2em 0em;
+	text-transform: uppercase;
+}
+	
+#logo h1
+{
+	letter-spacing: 0.10em;
+	font-size: 3em;
+}
+	
+#logo p 
+{
+	letter-spacing: 0.10em;
+	color: #FFF;
+}
+	
+#logo a 
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/********/
+/*Images*/
+/********/
+.first
+{
+	text-align: center;
+	transform: scale(1.5);
+}
+
+.second
+{
+	text-align: center;
+}
+
+/*PAGE*/
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+/*CONTENT*/
+#content
+{
+	float: left;
+	width: 790px;
+}
+
+/********/
+/*Footer*/
+/********/
+	
+#footer-wrapper
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	background: #1E1B1A;
+}
+
+#footer
+{
+	color: #ADADAD;
+}
